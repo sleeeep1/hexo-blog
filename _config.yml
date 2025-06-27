@@ -109,15 +109,6 @@ OhMyLive2d:
   CDN: https://model.oml2d.com/Senko_Normals/senko.model3.json
   option:
     # importType: 'cubism2' #  导入类型, 默认使用全量导入: complete , 可选值: complete, cubism2, cubism5
-    import { loadOml2d } from 'oh-my-live2d';
-  loadOml2d({
-    models: [
-      {
-        path: 'https://model.oml2d.com/Senko_Normals/senko.model3.json',
-        position: [-10, 20]
-      }
-    ]
-    });
     libraryUrls: # 自定义 Cubism SDK 外部资源地址
       complete: https://model.oml2d.com/Senko_Normals/senko.model3.json
       cubism2: https://model.oml2d.com/Senko_Normals/senko.model3.json
